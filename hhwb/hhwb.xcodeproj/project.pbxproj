@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		498002D71E2F093F00EFC64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498002D61E2F093F00EFC64A /* AppDelegate.swift */; };
-		498002D91E2F093F00EFC64A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498002D81E2F093F00EFC64A /* ViewController.swift */; };
 		498002DC1E2F093F00EFC64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498002DA1E2F093F00EFC64A /* Main.storyboard */; };
 		498002DE1E2F093F00EFC64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498002DD1E2F093F00EFC64A /* Assets.xcassets */; };
 		498002E11E2F093F00EFC64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498002DF1E2F093F00EFC64A /* LaunchScreen.storyboard */; };
 		498002EC1E2F093F00EFC64A /* hhwbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498002EB1E2F093F00EFC64A /* hhwbTests.swift */; };
 		498002F71E2F093F00EFC64A /* hhwbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498002F61E2F093F00EFC64A /* hhwbUITests.swift */; };
+		49FF122E1E2FC5B100126232 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 49FF122D1E2FC5B100126232 /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		498002D31E2F093F00EFC64A /* hhwb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hhwb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		498002D61E2F093F00EFC64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		498002D81E2F093F00EFC64A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		498002DB1E2F093F00EFC64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		498002DD1E2F093F00EFC64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		498002E01E2F093F00EFC64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		498002F21E2F093F00EFC64A /* hhwbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hhwbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		498002F61E2F093F00EFC64A /* hhwbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hhwbUITests.swift; sourceTree = "<group>"; };
 		498002F81E2F093F00EFC64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49FF122D1E2FC5B100126232 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		498002D51E2F093F00EFC64A /* hhwb */ = {
 			isa = PBXGroup;
 			children = (
+				49FF122D1E2FC5B100126232 /* Classes */,
 				498002D61E2F093F00EFC64A /* AppDelegate.swift */,
-				498002D81E2F093F00EFC64A /* ViewController.swift */,
 				498002DA1E2F093F00EFC64A /* Main.storyboard */,
 				498002DD1E2F093F00EFC64A /* Assets.xcassets */,
 				498002DF1E2F093F00EFC64A /* LaunchScreen.storyboard */,
@@ -233,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				498002E11E2F093F00EFC64A /* LaunchScreen.storyboard in Resources */,
+				49FF122E1E2FC5B100126232 /* Classes in Resources */,
 				498002DE1E2F093F00EFC64A /* Assets.xcassets in Resources */,
 				498002DC1E2F093F00EFC64A /* Main.storyboard in Resources */,
 			);
@@ -259,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				498002D91E2F093F00EFC64A /* ViewController.swift in Sources */,
 				498002D71E2F093F00EFC64A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
